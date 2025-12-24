@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Image Gallery</title>
+    <link rel="stylesheet" href="Gallery.css">
+</head>
+<body>
+
+<div class="gallery-container">
+    <center><h1>Product Image Gallery</h1></center>
+    <div class="main-image">
+        <img id="currentImage" src="Product.webp" alt="Product Image">
+    </div>
+
+    <div class="thumbnail-container">
+        <img src="th.webp" onclick="changeImage(this)">
+        <img src="Perfume.jpg" onclick="changeImage(this)">
+        <img src="Drink.jpg" onclick="changeImage(this)">
+        <img src="Cream.jpg" onclick="changeImage(this)">
+    </div>
+</div>
+
+<script src="Gallery.js"></script>
+</body>
+</html>
